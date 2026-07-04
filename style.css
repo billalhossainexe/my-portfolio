@@ -1,0 +1,75 @@
+/* All Over Body */
+*{
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.body{
+    margin: auto 10%;
+}
+
+/* header */
+header{
+    position: sticky;
+    top:0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo Section */
+
+.logo-b{
+    font-size: 18px;
+    color: #0066ff;
+    font-size: 35px;
+    margin: 0px;
+}
+.logo-role{
+    font-size: 13px;
+    
+}
+.logo-role{
+    color: slategray;
+}
+.name{
+    display: flex;
+}
+
+
+/* nav button section */
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #FFFFFF0A;
+  border-radius: 30px;
+  padding:8px 15px;
+  
+}
+.button{
+    border-radius: 30px;
+    padding:8px 15px;
+    background: transparent;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+.button:hover, .resume:hover{
+    background: #1f79ff;
+    box-shadow: 5px 5px 15px #1f79ff;
+    transform: scale(1.08);
+}
+.resume{
+    background: transparent;
+    border: 1.5px solid #1f79ff;
+    border-radius: 30px;
+    padding:8px 15px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+/* navbar sticky */
+header{
+    
+}
