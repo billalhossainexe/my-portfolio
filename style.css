@@ -69,7 +69,87 @@ header{
     display: inline-block;
 }
 
-/* navbar sticky */
-header{
-    
+/* hero section */
+.hero-section{
+    display: flex;
+    padding-left: 50px;
+    margin-top: 40px;
 }
+.hero-heading{
+    font-size: 90px;
+    font-weight: 700;
+}
+.hero-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.hero-img{
+    width: 210%;
+    height: 200%;
+}
+.hero-description{
+    font-size:20px;
+    margin-top: 20px;
+}
+.aiub{
+    color: #0066ff;
+}
+
+.work-btn,.cv-btn{
+    background: #0066ff;
+    border-radius: 30px;
+    padding:8px 15px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    font-size: 17px;
+}
+.work-btn{
+    margin-top: 30px;
+}
+.cv-btn{
+    background: transparent;
+    border: 1.5px solid #888888;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.cv-btn:hover, .work-btn:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  background: #50505091;
+}
+.cv-btn:hover{
+  border: 1.5px solid #1f79ff;
+  background: transparent;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #333;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.2s ease;
+  margin-top: 20px;
+}
+
+.social-btn:hover {
+ background: rgba(0, 8, 255, 0.15);
+  border-color: #0048ff;
+  color: #0004ff;
+  transform: translateY(-1.5px);
+}
+
+
+
+
